@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Guess</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js"></script>
+</head>
+<body onload="SoalanDarab()">
+    <div class="header">
+        <nav>
+            <center>
+                <a href="./index.html"><button class="nav-button">Addition</button></a>
+                <a href="./substract.html"><button class="nav-button">Subtraction</button></a>
+                <a href="./multiple.html"><button class="nav-button">Multiplication</button></a>
+                <a href="./division.html"><button class="nav-button">Division</button></a>
+            </center>
+        </nav>
+    </div>
+    <div class="main-container">
+        <center>
+            <div id="questionbox">
+                0 - 0 = ?
+            </div>
+            <div class="answer">
+                <div class="answer-container">
+                    <button onclick="CheckJawapan(1)" class="answer-box" id="btg1" style="background-color: #4889a2 ;">A.</button>
+                </div>
+                <div class="answer-container">
+                    <button onclick="CheckJawapan(2)" class="answer-box" id="btg2" style="background-color: #8ac803 ;">B.</button>
+                </div>
+                <div class="answer-container">
+                    <button onclick="CheckJawapan(3)" class="answer-box" id="btg3" style="background-color: #215fe4 ;">C.</button>
+                </div>
+            </div>
+        </center>
+    </div>
+</body>
+</html>
