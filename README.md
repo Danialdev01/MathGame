@@ -1,5 +1,5 @@
 # RandomMathQuestionGenerator
-random math generator that generate random numbers and asks you to answer it 
+Random math generator that generate random numbers and asks you to answer it 
 
 ## Features incude :
 - Random math question 
@@ -7,3 +7,10 @@ random math generator that generate random numbers and asks you to answer it
 - Random button sequence placement
 - Random button color
 
+## Examples :
+### Default page
+![default page look](./imgs/default.png)
+### If user press wrong answer button
+![wrong answer page look](./imgs/wrong%20answer.png)
+### If user press wrong answer button
+![right answer page look](./imgs/right%20answer.png)
